@@ -1,0 +1,24 @@
+Architectures: iphoneos-arm
+Date: Thu, 20 Aug 2020 18:43:26 +0000
+Label: Subcursus
+Origin: Subcursus
+MD5Sum:
+ ab2fc62b410afd2be646dd81b805f145            20616 Packages
+ b6bcbdad1f1e7f58fce1a037d42f0c70             5648 Packages.xz
+ 31134c6b20a77f3a081eeff08aaed917             5635 Packages.zst
+ ac1aeacb60c1b890783c2c5d1269e855              101 Release
+SHA1:
+ 4cb675ad66dbb765a5ddaab8aff983f9844077ed            20616 Packages
+ 06461db48b019ea90a800806a96f99af67dc6163             5648 Packages.xz
+ edc681053acf21affd916c734d1d447d673c1cef             5635 Packages.zst
+ 45202f40913e11fbe01125baaab826989c761efa              101 Release
+SHA256:
+ 10bc1f996d51bfc40bd03b8c299722c1a4b803fe54e1188c29842a8f767d35f2            20616 Packages
+ 987d07c1886d5cc33017e176412f3526df8bc65382654104d1af89281bf6a312             5648 Packages.xz
+ 0d1ba88da72d0720af08386b7ec06a850750f53d843783c525937cd66d7b7e2a             5635 Packages.zst
+ 7d208086924e7aa698d4b8a18aa4d0beb9c48f8b8c9ad308dfb7f07316ad8e2f              101 Release
+SHA512:
+ c9881a34cd6963e0d83681c80f0674840b9e5b034978fc31e73898753c5fc19684279623c0d59154365114c4a82f3e9a9839f3a6231fdd56dcc19afcc04a1fc0            20616 Packages
+ 72b6f820bce5e8cb2dd00ff4f9b7438aa6d8fa8437b63da64f3237389e950e6df7ac8bdbb00c70451de7cc2bca499024482c4d4a2b3c4e86593d93c582e2f916             5648 Packages.xz
+ 3c3e9cfa10533248bb666c5d74f8b1c7bcd40b687d2457bdfe8214dda3ad34d897b3f8b17547f32c4fed158b1f008d645d4a317c955245c4a90f0669301fa0ec             5635 Packages.zst
+ cf7b86d3283a236f8b93fb96d26f0ef9809057ea86956502cba0254bc34c7ee2c1ae2c2b85c643e427994d641ba7dc5982e0cbab1627971fce023c6f84906b82              101 Release

@@ -1,0 +1,613 @@
+Package: cameronkatri-keyring
+Architecture: iphoneos-arm
+Version: 2020.08.20
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Cameron Katri <katri.cameron@gmail.com>
+Installed-Size: 20
+Filename: pool/main/iphoneos-arm64/cameronkatri-keyring_2020.08.20_iphoneos-arm.deb
+Size: 2160
+MD5sum: afe4283959890472ea055b71713c576f
+SHA1: 49aff7cff04fd3f4a75efd3ce864e53df5ac5a54
+SHA256: 4072bea2813757047aacfc2879564003a567d9756d1818e55d262ee80a644277
+SHA512: 153e2642ab9660c0cc268e01a8a5b16aa7a16613d2e19a91b8ffcf9c0c5069b1a96a3d02f96fdac615de79baae247d494867e0040afa6bdca721030f62ca1a72
+Description: GnuPG key for Cameron Katri's repositories.
+Tag: purpose::backend, role::hacker
+Name: Cameron Katri APT Keyring
+
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6001+
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 96
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: https://apt.bingner.com/debs/1443.00/./com.saurik.substrate.safemode_0.9.6001+_iphoneos-arm.deb
+Size: 15842
+MD5sum: 42200cea4cff3836834ece42e427191c
+SHA1: c49a97c9b8cf046833572ca86614fd913bf770c9
+SHA256: 10795af8c4dfa1d32c8bac1335330ed23a347e866c5c2b04b3710d0a1dcdfbb8
+SHA512: 0992adc208fe3168f65dc3311cd3301c0d30c777ae81eef7f9603bb2693bac724cb501c7a8f4f2eaad2d5d530952c2b097d372a29c135f588553b7c78b76765d
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6001.1
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 80
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: https://apt.bingner.com/debs/1443.00/./com.saurik.substrate.safemode_0.9.6001.1_iphoneos-arm.deb
+Size: 13762
+MD5sum: 2aa5a5e2e1dbfa36ae2b039c14fbb263
+SHA1: 4f0e9e9aafda6463153f2d32857a11a55a11e3db
+SHA256: 751280071e00f3ef87538ce7ef339e79fcd27443e7bdf61261ce92539d3c2c14
+SHA512: 58c60565d0bf78d7ecacfe418f255c4be0111848135c51a12944156e78a9df9917a27ad51a7460e5b36b3c05b625f2ce54745593631040c5b1ab2f51901fe6bc
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6002
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 148
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: https://apt.bingner.com/debs/1443.00/./com.saurik.substrate.safemode_0.9.6002_iphoneos-arm.deb
+Size: 16552
+MD5sum: 1c68eb69f8c8f94cb2f76d729b7461a8
+SHA1: 4a6f6337e9eec91b443388f4a367dd1d7cec1265
+SHA256: f426c71ab1547f8525abdeafc6f2f97d59d28bb8acee8c43bde9400b4785a51b
+SHA512: 901056c7f28e43ef73f17336db103bfd6bd4b265d51e242cf748268f37d43141f5c11826a4374241da02bf8a0f5aac9db9281c2c10fcf48ea67e488156d283c0
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6003
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: https://apt.bingner.com/debs/1443.00/./com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb
+Size: 20722
+MD5sum: 54268824040a2681d43a81f574cf24da
+SHA1: 164289d0b2ef4d65e38fba1edbaa6319e4ef5d0b
+SHA256: 5c3b06e4d6f384f8ba9d33bf23bb60e0d866706f51f9434616e3194931c136fd
+SHA512: 5c8f7461fd1019c4b7e13a927e8b28f87f98c3cea78b238d2d7aef7a9be20b162324baea6d93fdae77515a828cd9ed559ab13c057a7971384e39d107d397c5ad
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.7101
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: https://apt.bingner.com/debs/1443.00/./mobilesubstrate_0.9.7101_iphoneos-arm.deb
+Size: 2495158
+MD5sum: fe3ab527d79b07951e550ea2cda5b9b3
+SHA1: 9d1dea00a0cad628845394045b8c7fae90c4038d
+SHA256: 727b30b3ce2ab01e020f0f660efc0c1228becb19cd628b7ea94187c3e4244eac
+SHA512: b7c7690a6c9fd14083bedb688d621ae27e1cd07e5a5c6fbb9c4a48544fc028d02b46b7820da0e4f01ce009186d2d24ed93280c6d8a286d449222b2be2e15ec4d
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.7102
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: https://apt.bingner.com/debs/1443.00/./mobilesubstrate_0.9.7102_iphoneos-arm.deb
+Size: 2507320
+MD5sum: 46b592d3ca8fd84e5ccf1d1d5e4a44a6
+SHA1: 30e3b304097f16561eea25b7ed4636f7a5420319
+SHA256: 119d988c3e1d9e4ddb859f2d40236d7dbf3fdcf923e459dc9e01264cbf7d2952
+SHA512: a53d6ade9115210dfdf6f388191f152f936d2b028859a0223da7870a53eec742e51f7d48e96087bf50eecd06468dda8892c0aa80ba0c68a2a442863efdaa8a42
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.7103
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: https://apt.bingner.com/debs/1443.00/./mobilesubstrate_0.9.7103_iphoneos-arm.deb
+Size: 2492704
+MD5sum: 40a43d6e5be48ddbb89e4d0d500aa603
+SHA1: 9539205077a1cb96fac68d20b40fc42676aa21f8
+SHA256: 8fc4789eefd59be2edd7f84ee9afe940be97f9172cdde9e81855b5363c8ffb67
+SHA512: 56b7a66ef960a25b020c921177ae84b64367f320d55c762bd185e6b0bbd0e1ca77029dcdea47096e95e086f85da05dda5512f0dd33aabccba5784fb8cbaccc4f
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.7104
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: https://apt.bingner.com/debs/1443.00/./mobilesubstrate_0.9.7104_iphoneos-arm.deb
+Size: 2514944
+MD5sum: 50ea10bb79ae7c3598c602dc7d2bd277
+SHA1: 0d054920991600906e9876b3c54e64663a5172ff
+SHA256: 47388a26a6bb8629f55de75dda57d3ca78d75d02e5f0143a419e6504c24e3143
+SHA512: 7209931008c59bd542d5f7477ec31d3d989c6580fd9ba914b8feaac7fc57165c4466deb53208723f0446eddbc1dd7771a0dce1525210ac4e90eba50bd14020f0
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.7107
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: https://apt.bingner.com/debs/1443.00/./mobilesubstrate_0.9.7107_iphoneos-arm.deb
+Size: 2530094
+MD5sum: 46ba5cb41c264183293689da51e463ef
+SHA1: 5082ea94469b0c39a158534254d24c94c3f46bf5
+SHA256: a03d3253187d151fbdfa5df3a10830a35ec4fb71e0fa4fdf1fc2fedde20dc4c9
+SHA512: 72115a7939f648bb5b91ae038c9aab6f7cc140fdea51ab95a43e2b0c04fec382f28607533e8b7ebb4fdb01b720bfc506e6a70764dd56f158f5122701a9fcb720
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 1.9.3
+Priority: required
+Section: Packaging
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: cydia-gui (<<99.0)
+Filename: https://repo.theodyssey.dev/debs/./org.coolstar.sileo_1.9.3_iphoneos-arm.deb
+Size: 3163028
+MD5sum: c6636f561d5529fa24bf298e1b9213a1
+SHA1: 48def39baa79e5b9c68483d9cac433dd26a12bc9
+SHA256: 07f987963e38441a220389ae5c42f8064555a53529d50f12a630855d694da90b
+SHA512: 15a732a8ac90a000ec3449375419667231bd4899732bcb3f2871c0bcc73ec8f4705d6d875c8023cc1dd0c79e0a5362a3037a95597a21ef039f0696c20227eddc
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.0.8
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 48920
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.0.8_iphoneos-arm.deb
+Size: 13107842
+MD5sum: ce6b77354ca971b9fdeb38aa9568d51a
+SHA1: 37dddb979fd08ef41f42311374dba4ed05368b4e
+SHA256: 84c44b3b298dd7bf1a72b783b3a0028ad29b19b5c7c0aa7c1af48443653b2fa1
+SHA512: a09575ed311a607672d729f3a3d4308526494d6ed55f99a9fa3cb6fa34f636e0ea57deef5a68cfbd57b2f6b54bd53a1f554d28ca96078783a751ad620b1897a2
+Description: A Useful Package Manager
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.10
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58028
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.10_iphoneos-arm.deb
+Size: 18740142
+MD5sum: e614c48c76cdb3d391d6419ec0db8a41
+SHA1: 0f05956e553e56918811855b2ce927a1f080decc
+SHA256: a6489346fdfae7d34321ea810a25429141b522b420271c2ccc6c51855ad41f25
+SHA512: befa68c2ee53a7886217ebe9930ebc97418cbca3665ba3affb92395a0038ef06f96bd9caacff768d506e66a0916d12902627911874b0f8f193e3f02a866c035b
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.11
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58432
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.11_iphoneos-arm.deb
+Size: 19126008
+MD5sum: fb17c2b3fdb41329c0db518f481285c2
+SHA1: 05c0c4795496cb7295203485de722cb613fbf04e
+SHA256: 4c02e1d2103cf3e5fcd786ee208acaf19ac7192915adc92c04afa42a26af1fe1
+SHA512: b988b64c1867574517126660a9fe294c534cc2d497c43a012c71793f0c0be3d8b082c4b4fae0c11c82fa869205dd215ca733938ac8d685294f3250136bcbacc8
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.12
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58432
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.12_iphoneos-arm.deb
+Size: 19126394
+MD5sum: c630ba6cb74ffb8d1e917557729767a6
+SHA1: 0e325b5135feb510f05a2bd14e6c9188258ffe81
+SHA256: 0801d19a17aefdb086edfe7214fd295d4af935473a4dadd312dadef08281409f
+SHA512: 1d6561bda67c9326ad2c3fcd9b9b933f8cc4aa5edb5343180a88371fb2dbb63bb4d931b7b1688824b465edae791dd81ae8a399fef0d6b1d6ef14b0dd81e2018e
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.1
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57672
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.1_iphoneos-arm.deb
+Size: 18635776
+MD5sum: 57fd685bea4b9b02d92829cb1c3abe3a
+SHA1: e9141d30c0ae1542c7ff687069cee1135f327ab1
+SHA256: 57aa9cf39c8121fb208d6134d2b115d8f06022034d6c111ea4e420e89a878943
+SHA512: 34033c4fae592c3532e87f5aaa6ce9537130a1ea6afb4f508d2b813ffed0774d500ad6b3341151b3c6a70cc3df222adf23f5fd86d1ed99fa22d25eb5ee4aff9e
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.2
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57704
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.2_iphoneos-arm.deb
+Size: 18638396
+MD5sum: 07b213808bf0ad4f8925480265009628
+SHA1: 89f9f3bb019697c662b76a22fa0d27c97d4f0222
+SHA256: f4631d4b9451f21dcdc112ed2d45c78d3d55844a9f6c6c63d77e77636e12bf7c
+SHA512: ec5d437e7a2a62b85a956ce10245a830ad2ea7dd8ac61e89ecaa2b29818db9868da6f14899b2cf5fc46880e09cbd6ffdf9bcb5aa4ee300a632e461a30482fadc
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.3
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57704
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.3_iphoneos-arm.deb
+Size: 18640520
+MD5sum: 7edb471e54b85cb4e11bb8f8485fbe65
+SHA1: 200ac40c2bfaf5096f1b867a400fd456654c7387
+SHA256: aaa964e2595fc831dacd1de7dbea470cea6a4952a735568ac4b419ca32567cc2
+SHA512: c4748ef41bd3ec2398be7b27df4ad3863817b705a0336897ed5ba21866dd861076d3ea76dcdc2405cfe1122d90b86ef1bdc59beaa36632d8b73492255ee1b5ef
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.4
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57800
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.4_iphoneos-arm.deb
+Size: 18669780
+MD5sum: 04b014bf34fcfb1c406714554ba6cff9
+SHA1: ecaa415809266287934f628bb9ac1d19d85d4c22
+SHA256: 6efb238cee055bb17370fa2e6a5ab57d498d47f2a0ea793d57970a0cd35e866d
+SHA512: c2b1c19611ff798c146ea2bfc44bd2151d4456ba0a85f1c3f6ec28f7a8bb2d01d83ec28aaed45327de58ee11515a341891c71737e9c882ab0ad73945d9d53578
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.6
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57860
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.6_iphoneos-arm.deb
+Size: 18691230
+MD5sum: 9f924ef47001db683a957960455f95a4
+SHA1: eaf77a19f193b39cf9b4b846857f21b05f4aef4b
+SHA256: 24267e273fa6f4d01915d030276d0be7e6ff01c6767078682ad0f47df52b0f66
+SHA512: e2e9112bf5b9a9c8bee7522569bedb7e73c57080f8062d3676f65def401b484ad9fef5af3a636990bcb0f6a16fd9bad371675b2d3f4c9a3ecdda947534a73b73
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.7
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57896
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.7_iphoneos-arm.deb
+Size: 18691100
+MD5sum: 2362b64ca0112075defb394c39f92916
+SHA1: b7afe8e5b932db4a4ee60de103c63fa497ab4292
+SHA256: ff9443741b43f5afaa1414f8387ecbcc6a08093d3046f795b685307841197358
+SHA512: 6d8484867f443819a94ed3adf74d4b9db4c55f1b3df00010d3f3830682f3cfca933bc29688c05ec195333d8010c7e2a374cfda1992eab95c710afefdab8944d6
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.8
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57896
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.8_iphoneos-arm.deb
+Size: 18697612
+MD5sum: 4ffc1f10f42ac19eec3d20e986a43b7e
+SHA1: c79ada06afdc95454239d42ea1755296deaf95ea
+SHA256: 464470e51dee433e8451c55df3d77a20b976ccbfe1c9cbfa6314154dd4f8af09
+SHA512: b7b218c8e57a33a94a19042e5cbac5125a816150534fafaaece01a2b07f1737c0e737b8e0bbc9273a67f9ebb3666eecc4be8c2519cf3c9c469f4415e4d2009ef
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.9
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 57896
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.9_iphoneos-arm.deb
+Size: 18705452
+MD5sum: ad04af790a9d99726971699230cfbbe2
+SHA1: 5329deed54340aeb4a451c229eaaa7b8916426a0
+SHA256: a52feb54524899559c3fec30370af36ab7ffff5cbe7159031bebbc645fefd047
+SHA512: a1138911e041bd34e24dc33999dbdc12bdaea3592005eb9a2eed3a57115b66dc7b35d44e07f27b3eff4a160e2b331a1ca2e6cf5dce30fa78a7b63244c4430f7b
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58444
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1_iphoneos-arm.deb
+Size: 18959112
+MD5sum: 003c9303048f1058b4aaae39de279b1c
+SHA1: 6eaa702a3030cf661556815d21d3758044c071b6
+SHA256: c7e2005c4629a6fffe33981fbcfa78c610876288d2153b2809df308cb4cad554
+SHA512: 4aa38bf124519a25c6aafd2e6217de3797b100f71238acc93f8058608e4397ebdcf8e51e38ec8d7d069ef800abded0a643b5913ab5446901023f48c96c7f26ab
+Description: A Useful Package Manager
+Tag: compatible::9.0-13.4
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/beta/depictions/xyz.willy.Zebra/
+
+Package: me.apptapp.installer
+Architecture: iphoneos-arm
+Version: 5.0.0
+Section: Packaging
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 10.0)
+Filename: https://apptapp.me/repo/debs/./Installer_500.deb
+Size: 23687034
+MD5sum: ed68e13aecbe63c95b098906a2bde7cf
+SHA1: 26c0e6bd9d0ec3dc5cee4d1df27acac7d46991d5
+SHA256: b7000ca39ae89b8785b669b2a6e8a27c379e1ef2abdc2b5f0373c5b2bda85920
+SHA512: 12c627a7357875d44b7a0ed38d8cc9ca8aeb51b840d34dab0eea7980e18042514729a595c2e80326866271ae129690a0de3dcffcd603c792ebcbb5a26b8419e9
+Description: The fastest package manager built specifically for iOS!
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer
+SileoDepiction: https://apptapp.me/repo/installer.json
+
+Package: me.apptapp.installer
+Architecture: iphoneos-arm
+Version: 5.0.1
+Section: Packaging
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 10.0)
+Filename: https://apptapp.me/repo/debs/./Installer_501.deb
+Size: 28238468
+MD5sum: bb31f0ac1060827be2153191edf63f2b
+SHA1: bf11587e378faa389080bb537e2dfeaf8bf3c3f8
+SHA256: 563bf22cfd8aafe037d988ad42b7cc0bb8cd82b62172a0b3c51911e661edfbf6
+SHA512: caa885b31e45395ce4cb7f51b9b249a493791d067fea69ab360fb85cff1c4c972dd2bfcbf1b9536e4220e90299377d999e0e33dd830be89f2c0823165de7799f
+Description: The fastest package manager built specifically for iOS!
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer
+SileoDepiction: https://apptapp.me/repo/installer.json
+
+Package: me.apptapp.installer
+Architecture: iphoneos-arm
+Version: 5.0.2.1
+Section: Packaging
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 10.0)
+Filename: https://apptapp.me/repo/debs/./Installer_5021.deb
+Size: 28384608
+MD5sum: db2380558ebdc1ea2c2f7064a3b1c5ed
+SHA1: 32e3acab79fd672dd44f4acd0349125e49ee2fa0
+SHA256: 9376ca676a343e3d4744b61fe3f88d6aea4033a2527e4f9b20467f17ad0952e3
+SHA512: 685154b4d91702213ef3fa16d2d732f9070fc8ca1291df961843ce624d6cda2d337333f9f93ef1883c9b16d76fc1d6f94c570fe8965c5449b9d7bdf335733b26
+Description: The fastest package manager built specifically for iOS!
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer
+SileoDepiction: https://apptapp.me/repo/installer.json
+
+Package: me.apptapp.installer
+Architecture: iphoneos-arm
+Version: 5.0.2.2
+Section: Packaging
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 10.0)
+Filename: https://apptapp.me/repo/debs/./Installer_5022.deb
+Size: 28384594
+MD5sum: 4678185d34acd68ad0843fd46085616c
+SHA1: a972a0705f46c3dcbab0fa741ed9ae6300c95b3b
+SHA256: f5c70f585da5c863e0bd3adba873543f5b63171cdc3e3650d68b74103dc55a17
+SHA512: 49b2ac4d73bf9f96eb206c0bd3972423df2481f506d749c633f3bcf22c01c23eac0ae5193b313edfa6be1ed07844fed16a2d23efdb0195a69fedb3d19b8a995b
+Description: The fastest package manager built specifically for iOS!
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer
+SileoDepiction: https://apptapp.me/repo/installer.json
+
+Package: me.apptapp.installer
+Architecture: iphoneos-arm
+Version: 5.0.2.3
+Section: Packaging
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 10.0)
+Filename: https://apptapp.me/repo/debs/./Installer_5023.deb
+Size: 23778996
+MD5sum: 60031b5dc034e7534567e384f02c799f
+SHA1: ecf6944cf940542016c3ba277c724624e9e8f7d4
+SHA256: ceec0d007e84e86669b25fc88b49af3060948f6fabc4d55e54e1c9013c0f3924
+SHA512: 97ac03fad0f32c335de84f53668d169e68ac37e168e9c4a06fe3f57696433429ddec603978211694aeb9ba47e4f55f8645cc65b668d59c4aec5406ea6cb7537b
+Description: The fastest package manager built specifically for iOS!
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer
+SileoDepiction: https://apptapp.me/repo/installer.json
+
+Package: me.apptapp.installer
+Architecture: iphoneos-arm
+Version: 5.0.2.4
+Section: Packaging
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 10.0)
+Filename: https://apptapp.me/repo/debs/./Installer_5024.deb
+Size: 28392822
+MD5sum: 3391cb31f0105b098dac89112fb3e705
+SHA1: 634ca7620a4ff40a846eb41c82e64173d015f051
+SHA256: d5582df3a4a729693bb3893aa3a6f72871ceb197b1586647cdf1ff0f2bde06a3
+SHA512: b20edded9125c5871aad5bd0d06dc361b00e782e418ac401f99ea780e0f6ff220fb8eabbc39a5bfac2ee8e0f98284cab0435698dcf8ae2be7bf2054d7bace13e
+Description: The fastest package manager built specifically for iOS!
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer
+SileoDepiction: https://apptapp.me/repo/installer.json
+
+Package: me.apptapp.installer
+Architecture: iphoneos-arm
+Version: 5.0.3-2
+Section: Packaging
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 11.0)
+Filename: https://apptapp.me/repo/debs/./Installer_503.deb
+Size: 24127482
+MD5sum: bd30e3633b97aedeea67f46a07ce403a
+SHA1: d6b28c5ecb85adf9d9f7000455374f9d2acf3ce0
+SHA256: bd6e08bed23bc9b7fdc3974e1b38a294da363104a66acc9faa0a5f516c61d6e8
+SHA512: 1c6898444c7f4c29e7c495de3f7db331d5efd1694fb82137c59645faea52106008afa223a50fbf727c528b9abd8085cde80aca5c866af18d535c75cc3a3b1136
+Description: The fastest package manager built specifically for iOS!
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer
+SileoDepiction: https://apptapp.me/repo/installer.json
+
