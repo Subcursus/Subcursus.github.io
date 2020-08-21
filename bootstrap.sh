@@ -51,6 +51,7 @@ if [ "1" = $version ]; then
 elif [ "2" = $version ]; then
 	echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1500 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 fi
+echo 'mkdir -p /var/mobile/Library/Application\ Support/xyz.willy.Zebra/' >> device.sh
 echo 'echo "deb https://subcursus.github.io/ iphoneos-arm64/substrate main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 echo 'touch /.mount_rw' >> device.sh
 echo 'touch /.installed_subcursus' >> device.sh
@@ -61,15 +62,12 @@ echo 'rm device.sh' >> device.sh
 
 echo "1 for zebra"
 echo "2 for sileo"
-echo "3 for installer"
 read packagemanager
 
 if [ "1" = $packagemanager ]; then
 	curl -L -o packagemanager.deb https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.12_iphoneos-arm.deb
 elif [ "2" = $packagemanager ]; then
 	curl -L -o packagemanager.deb https://github.com/coolstar/odyssey-bootstrap/raw/master/org.coolstar.sileo_1.8.1_iphoneos-arm.deb
-elif [ "3" = $packagemanager ]; then
-	curl -L -o packagemanager.deb https://apptapp.me/repo/debs/./Installer_503.deb
 fi
 
 if [ "1" = $version ]; then
