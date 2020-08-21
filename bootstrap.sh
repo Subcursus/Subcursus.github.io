@@ -13,6 +13,10 @@ read -p "Press enter to continue"
 
 iproxy 4444 44 >> /dev/null 2>/dev/null &
 
+echo "1 for *OS 13"
+echo "2 for *OS 12"
+read version
+
 echo '#!/bin/bash' > device.sh
 echo '' >> device.sh
 echo 'mount -uw -o  union /dev/disk0s1s1' >> device.sh
@@ -42,7 +46,11 @@ echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin
 echo 'uicache -a' >> device.sh
 echo 'echo -n "" > /var/lib/dpkg/available' >> device.sh
 echo '/Library/dpkg/info/profile.d.postinst' >> device.sh
-echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1600 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
+if [ "1" = $version ]; then
+	echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1600 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
+elif [ "2" = $version ]; then
+	echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1500 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
+fi
 echo 'echo "deb https://subcursus.github.io/ iphoneos-arm64/substrate main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 echo 'touch /.mount_rw' >> device.sh
 echo 'touch /.installed_subcursus' >> device.sh
@@ -63,7 +71,13 @@ elif [ "2" = $packagemanager ]; then
 elif [ "3" = $packagemanager ]; then
 	curl -L -o packagemanager.deb https://apptapp.me/repo/debs/./Installer_503.deb
 fi
-curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1600/bootstrap-ssh.tar.zst -O https://github.com/Subcursus/Subcursus.github.io/raw/master/pool/main/iphoneos-arm64/cameronkatri-keyring_2020.08.20_iphoneos-arm.deb
+
+if [ "1" = $version ]; then
+	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1600/bootstrap-ssh.tar.zst -O https://github.com/Subcursus/Subcursus.github.io/raw/master/pool/main/iphoneos-arm64/cameronkatri-keyring_2020.08.20_iphoneos-arm.deb
+elif [ "2" = $version ]; then
+	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1500/bootstrap-ssh.tar.zst -O https://github.com/Subcursus/Subcursus.github.io/raw/master/pool/main/iphoneos-arm64/cameronkatri-keyring_2020.08.20_iphoneos-arm.deb
+fi
+
 zstd -d bootstrap-ssh.tar.zst
 scp -P4444 -o "StrictHostKeyChecking no" -o "UserKnownHostsFile=/dev/null" bootstrap-ssh.tar packagemanager.deb device.sh cameronkatri-keyring_2020.08.20_iphoneos-arm.deb root@127.0.0.1:/var/root/
 ssh -p4444 -o "StrictHostKeyChecking no" -o "UserKnownHostsFile=/dev/null" root@127.0.0.1 "bash /var/root/device.sh"
