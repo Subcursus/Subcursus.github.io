@@ -60,13 +60,20 @@ echo 'rm packagemanager.deb' >> device.sh
 echo 'rm cameronkatri-keyring_2020.08.20_iphoneos-arm.deb' >> device.sh
 echo 'rm device.sh' >> device.sh
 
-echo "1 for zebra"
-echo "2 for sileo"
+echo "1 for cydia"
+echo "2 for zebra"
+echo "3 for sileo"
 read packagemanager
 
 if [ "1" = $packagemanager ]; then
-	curl -L -o packagemanager.deb https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.12_iphoneos-arm.deb
+	if [ "1" = $version ]; then
+		curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1600/cydia_1.1.33_iphoneos-arm.deb
+	elif [ "2" = $version ]; then
+		curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1500/cydia_1.1.33_iphoneos-arm.deb
+	fi
 elif [ "2" = $packagemanager ]; then
+	curl -L -o packagemanager.deb https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.12_iphoneos-arm.deb
+elif [ "3" = $packagemanager ]; then
 	curl -L -o packagemanager.deb https://github.com/coolstar/odyssey-bootstrap/raw/master/org.coolstar.sileo_1.8.1_iphoneos-arm.deb
 fi
 
