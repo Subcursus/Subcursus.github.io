@@ -37,7 +37,7 @@ echo 'snappy -f / -r $(snappy -f / -l | sed -n 2p) -t orig-fs' >> device.sh
 echo '/usr/libexec/firmware' >> device.sh
 echo 'mkdir -p /etc/apt/sources.list.d/' >> device.sh
 echo 'echo "Types: deb" > /etc/apt/sources.list.d/subcursus.sources' >> device.sh
-echo 'echo "URIs: https://subcursus.github.io/" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+echo 'echo "URIs: https://apt.subcursus.cf/" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
 echo 'echo "Suites: iphoneos-arm64/substrate" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
 echo 'echo "Components: main" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
 echo 'echo "" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
@@ -52,7 +52,7 @@ elif [ "2" = $version ]; then
 	echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1500 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 fi
 echo 'mkdir -p /var/mobile/Library/Application\ Support/xyz.willy.Zebra/' >> device.sh
-echo 'echo "deb https://subcursus.github.io/ iphoneos-arm64/substrate main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
+echo 'echo "deb https://apt.subcursus.cf/ iphoneos-arm64/substrate main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 echo 'touch /.mount_rw' >> device.sh
 echo 'touch /.installed_subcursus' >> device.sh
 echo 'rm bootstrap-ssh.tar' >> device.sh
