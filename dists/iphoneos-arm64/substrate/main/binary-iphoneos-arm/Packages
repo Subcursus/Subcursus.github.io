@@ -100,6 +100,27 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6004
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: https://apt.bingner.com/debs/1443.00/./com.saurik.substrate.safemode_0.9.6004_iphoneos-arm.deb
+Size: 22494
+MD5sum: 84d571c91b20c2a49ff5a300c9671b44
+SHA1: c995201714cf8a2b86ec7f2d9d703a6b4698fbbd
+SHA256: dee1738c0fafc2be7e7c4bc1a92bd0f629af221e2a6d83b3fb748d8edbbd6bdd
+SHA512: 4e5d0497c88501065966370bbbc1cb2e70b68e85ae8f22943814f6179d128fb2124abb600fecd56929fdf197b09cc4ad70763f86f4254955fc23dd445c80f6fc
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
 Package: mobilesubstrate
 Architecture: iphoneos-arm
 Version: 0.9.7101
@@ -205,6 +226,28 @@ MD5sum: 46ba5cb41c264183293689da51e463ef
 SHA1: 5082ea94469b0c39a158534254d24c94c3f46bf5
 SHA256: a03d3253187d151fbdfa5df3a10830a35ec4fb71e0fa4fdf1fc2fedde20dc4c9
 SHA512: 72115a7939f648bb5b91ae038c9aab6f7cc140fdea51ab95a43e2b0c04fec382f28607533e8b7ebb4fdb01b720bfc506e6a70764dd56f158f5122701a9fcb720
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.7108
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: https://apt.bingner.com/debs/1443.00/./mobilesubstrate_0.9.7108_iphoneos-arm.deb
+Size: 2525380
+MD5sum: 2cb9149f68b1d8f04e980f19455e7fb0
+SHA1: 54a4198558306042f3f6bb77eac2e86d4d38063a
+SHA256: 24a5c221a462a72e36f2bae7605b52599f353ea2be70e4321d83eaeb0ad45c5c
+SHA512: 5c3044f36127bd354621dc4f4751191e806aa1843d96524836a9e0da0d154de1007bb3255daea2672e9504fc712b00fdc055d829cab168cfb045d2752167b3e1
 Description: powerful code insertion platform
 Name: Cydia Substrate
 Author: Jay Freeman (saurik) <saurik@saurik.com>
