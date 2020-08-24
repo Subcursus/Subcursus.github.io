@@ -6,7 +6,7 @@ Essential: yes
 Section: System
 Maintainer: Cameron Katri <katri.cameron@gmail.com>
 Installed-Size: 20
-Filename: pool/main/iphoneos-arm64/cameronkatri-keyring_2020.08.20_iphoneos-arm.deb
+Filename: pool/main/iphoneos-arm64/substitute/cameronkatri-keyring_2020.08.20_iphoneos-arm.deb
 Size: 2160
 MD5sum: afe4283959890472ea055b71713c576f
 SHA1: 49aff7cff04fd3f4a75efd3ce864e53df5ac5a54
@@ -24,7 +24,7 @@ Essential: yes
 Section: System
 Maintainer: Cameron Katri <katri.cameron@gmail.com>
 Installed-Size: 36
-Filename: pool/main/iphoneos-arm64/cameronkatri-keyring_2020.08.23_iphoneos-arm.deb
+Filename: pool/main/iphoneos-arm64/substitute/cameronkatri-keyring_2020.08.23_iphoneos-arm.deb
 Size: 3328
 MD5sum: 3fb1fce5acd8da2952e5de0f4a61b003
 SHA1: a148d61c55815cc82aa11358a3c19fe03f9573e0

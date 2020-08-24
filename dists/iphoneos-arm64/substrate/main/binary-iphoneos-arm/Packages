@@ -6,7 +6,7 @@ Essential: yes
 Section: System
 Maintainer: Cameron Katri <katri.cameron@gmail.com>
 Installed-Size: 20
-Filename: pool/main/iphoneos-arm64/cameronkatri-keyring_2020.08.20_iphoneos-arm.deb
+Filename: pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.08.20_iphoneos-arm.deb
 Size: 2160
 MD5sum: afe4283959890472ea055b71713c576f
 SHA1: 49aff7cff04fd3f4a75efd3ce864e53df5ac5a54
@@ -24,7 +24,7 @@ Essential: yes
 Section: System
 Maintainer: Cameron Katri <katri.cameron@gmail.com>
 Installed-Size: 36
-Filename: pool/main/iphoneos-arm64/cameronkatri-keyring_2020.08.23_iphoneos-arm.deb
+Filename: pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.08.23_iphoneos-arm.deb
 Size: 3328
 MD5sum: 3fb1fce5acd8da2952e5de0f4a61b003
 SHA1: a148d61c55815cc82aa11358a3c19fe03f9573e0
@@ -33,6 +33,22 @@ SHA512: 4a25c9e95dc8b17063c8dab8c8a9eda4049e648c0668e7a10c1744d7d63be02217ff60d9
 Description: GnuPG key for Cameron Katri's repositories.
 Tag: purpose::backend, role::hacker
 Name: Cameron Katri APT Keyring
+
+Package: sileofix
+Architecture: iphoneos-arm
+Version: 1.0
+Section: System
+Maintainer: Cameron Katri <katri.cameron@gmail.com>
+Depends: org.coolstar.sileo
+Filename: pool/main/iphoneos-arm64/substrate/sileofix_1.0_iphoneos-arm.deb
+Size: 1032
+MD5sum: 0afbcb0b99a0003aabe89e460c961df8
+SHA1: 8432d78e89c225878d885ec22259f30e466e4884
+SHA256: 61ee77ac68874aaef636d2273d698b04b0746b55a2b5ca2e6d061943abc7daa0
+SHA512: 58d80edacafd4c425a14fbbd466bf66b0e18635b7fbb515f6da20c7dc37e05321fe6469d83e375d4c61534d0652286b6ebde1f6b7133779f36fd830863308cb9
+Description: Fix Sileo respringing with substrate
+Tag: purpose::backend
+Name: Sileo Respring Fix
 
 Package: com.saurik.substrate.safemode
 Architecture: iphoneos-arm
@@ -244,28 +260,6 @@ MD5sum: 46ba5cb41c264183293689da51e463ef
 SHA1: 5082ea94469b0c39a158534254d24c94c3f46bf5
 SHA256: a03d3253187d151fbdfa5df3a10830a35ec4fb71e0fa4fdf1fc2fedde20dc4c9
 SHA512: 72115a7939f648bb5b91ae038c9aab6f7cc140fdea51ab95a43e2b0c04fec382f28607533e8b7ebb4fdb01b720bfc506e6a70764dd56f158f5122701a9fcb720
-Description: powerful code insertion platform
-Name: Cydia Substrate
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/mobilesubstrate/
-
-Package: mobilesubstrate
-Architecture: iphoneos-arm
-Version: 0.9.7108
-Priority: optional
-Section: System
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: com.saurik.substrate.safemode
-Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
-Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
-Replaces: cycript (<= 0.9.594), com.saurik.substrate
-Filename: https://apt.bingner.com/debs/1443.00/./mobilesubstrate_0.9.7108_iphoneos-arm.deb
-Size: 2525380
-MD5sum: 2cb9149f68b1d8f04e980f19455e7fb0
-SHA1: 54a4198558306042f3f6bb77eac2e86d4d38063a
-SHA256: 24a5c221a462a72e36f2bae7605b52599f353ea2be70e4321d83eaeb0ad45c5c
-SHA512: 5c3044f36127bd354621dc4f4751191e806aa1843d96524836a9e0da0d154de1007bb3255daea2672e9504fc712b00fdc055d829cab168cfb045d2752167b3e1
 Description: powerful code insertion platform
 Name: Cydia Substrate
 Author: Jay Freeman (saurik) <saurik@saurik.com>

@@ -40,7 +40,7 @@ for dist in iphoneos-arm64/{substrate,substitute}; do
 	rm -f dists/${dist}/{Release{,.gpg},main/${binary}/{Packages{,.xz,.zst},Release{,.gpg}}}
 	cp -a CydiaIcon*.png dists/${dist}
 	
-	apt-ftparchive packages pool/main/iphoneos-arm64 > \
+	apt-ftparchive packages pool/main/${dist} > \
 		dists/${dist}/main/${binary}/Packages 2>/dev/null
 	if [[ "${dist}" == "iphoneos-arm64/substrate" ]]; then
 		apt-ftparchive packages ./tmpbingner >> \
