@@ -13,7 +13,7 @@ for deb in $(grep "mobilesubstrate_\|com.saurik.substrate.safemode_" tmpbingner/
 done
 rm tmpbingner/Packages
 
-for deb in $(grep "org.coolstar.sileo_" tmpodyssey/Packages | cut -c 11-); do
+for deb in $(grep "org.coolstar.sileo_\|org.coolstar.sileobeta_" tmpodyssey/Packages | cut -c 11-); do
 	wget -nc -P tmpodyssey https://repo.theodyssey.dev/${deb}
 done
 rm tmpodyssey/Packages
