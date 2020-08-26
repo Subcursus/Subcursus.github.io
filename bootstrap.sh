@@ -78,9 +78,9 @@ elif [ "3" = $packagemanager ]; then
 fi
 
 if [ "1" = $version ]; then
-	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1600/bootstrap-ssh.tar.zst -O https://github.com/Subcursus/Subcursus.github.io/raw/master/pool/main/iphoneos-arm64/cameronkatri-keyring_2020.08.20_iphoneos-arm.deb
+	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1600/bootstrap-ssh.tar.zst -O https://raw.githubusercontent.com/Subcursus/Subcursus.github.io/master/pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.08.26_iphoneos-arm.deb
 elif [ "2" = $version ]; then
-	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1500/bootstrap-ssh.tar.zst -O https://github.com/Subcursus/Subcursus.github.io/raw/master/pool/main/iphoneos-arm64/cameronkatri-keyring_2020.08.20_iphoneos-arm.deb
+	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1500/bootstrap-ssh.tar.zst -O https://raw.githubusercontent.com/Subcursus/Subcursus.github.io/master/pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.08.26_iphoneos-arm.deb
 fi
 
 zstd -d bootstrap-ssh.tar.zst
