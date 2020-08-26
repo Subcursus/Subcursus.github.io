@@ -43,11 +43,11 @@ Section: System
 Maintainer: Cameron Katri <katri.cameron@gmail.com>
 Installed-Size: 36
 Filename: pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.08.26_iphoneos-arm.deb
-Size: 4384
-MD5sum: a644f36d3730e6ad43d625356ed07e37
-SHA1: b8bf76ff0e65d50977a8dbf92ef7cd43fd18d2d0
-SHA256: 8d46638086606df90719d0379fa1d5e6fb22b20c2a347d5830efb6d4d58a49ee
-SHA512: dfab611b5cd3596e98e978a0106f2784b7b61d31b05c0d8f533993d1f27b160d5dc7e1f5fb4fbcd9c034c6c367a5ad349d8c2a25586b0d704c810efdb1f92fbe
+Size: 5996
+MD5sum: dd0fea4bfcf86d67cdb36ffab19dca83
+SHA1: 9a43975aeddeb43cc1e155be49fc8ff76a1e9e7d
+SHA256: 69b790e689c55d92dbb0351a42baf97ced323495a552f266830ce4da50ce25e5
+SHA512: 3924a508ee8d2313a0df3c76581deedce8709e13fc0315d4bb51258d3cac60ced5e1b0ca3d8adba39d7368528306c9b1d071bbd69e640ad45108861bd3ce2742
 Description: GnuPG key for Cameron Katri's repositories.
 Tag: purpose::backend, role::hacker
 Name: Subcursus APT Keyring
