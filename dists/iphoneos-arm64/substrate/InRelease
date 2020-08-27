@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Architectures: iphoneos-arm
 Codename: iphoneos-arm64
 Components: main
@@ -31,3 +34,19 @@ SHA512:
  cf08718ce8f2c4c075f30124bc5ab8c528b93c0a522643c131c679d4122d61edee76b77eef6ece1db6aeb5227ca6429f0dc42a378a28cc6c2c83d42e7d697ed6             7728 main/binary-iphoneos-arm/Packages.xz
  83b479fefb7cb33816dcd935204f40bfc15689dc48273d940bc4fbf97fe4b6830500ad82b9dc5ed685da1792b4bb5102364f9e54557dab92e28290547d7e0de2             7683 main/binary-iphoneos-arm/Packages.zst
  02ead60380c7514f36bd15f75a23b5e3da893c96a630accd9d44f8d13f8a0efcfc23c5aaafc39fa544d904bbe91871ba835fc6d5a1a4257420214f893457f38e             1659 main/binary-iphoneos-arm/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE5XDtch16OIZiL3LlUwXeHv9D0JEFAl9ILggACgkQUwXeHv9D
+0JFQixAAjA9ntEZy1R5f0qI8wUWFS9G1wJ5MfEZe7cGqEGseqjHnfsmAJvMvmR4C
+hhoRFVYXEtcWgCfPc8ml4aIDLyPHH+paQTVadL5wny+t623SRKND0gzv0F2aR7AN
+a93fmKMVE2awwRBIz4RKtprSu3adHEvlqj6er1FZG4s96kJnyzlSBkVRscjx8Ucf
+0T7JKZzI0u6n992vsly691IB0BS5G0rBJ2qjrmaMM1p1S36s1JPoElwOFwv7feLj
+3dvvTc8uqlhA4IJeMuvlmvEnjNBs9rnPv0nO138rP6efl/X4rGZWZ1baSrqmQ+Ej
+S2ow3l3pmXV8xUG9A0ydTiNx20UhQZPfDjP2WeIVXHNLjbTE2Xrlaf+J9i86fJFi
+pOXGpvaTlhr5GxNB7LoyFiNWCtGHcgDeIxiiFIE0ziMvJUnzTl3BoQduuTVF5G5y
+twtZSytSWByzEQDmMzzLb3jq8swk/Ut79AYEXHnUQWhsGOJWZdeqiHZKw/ZwEj84
+43/HThthA6r9WpcYyPZEenfRi2acNeUr9YLHYJ7uDLlApMLUAATmuHwPlQ1qAnpp
+HD4qMla5rFUlK1Brev1XRpazEAhjn3iW3JT/PvdcsXdHard5R0qUVMMt3GcF8xTN
+KlQ5oNz5stxfyzpu8C5WTN3WICM/++5Tczzl2+LpRDzNUqhM80w=
+=B55t
+-----END PGP SIGNATURE-----

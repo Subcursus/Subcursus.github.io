@@ -70,6 +70,7 @@ for dist in iphoneos-arm64/{substrate,substitute}; do
 	apt-ftparchive release -c config/$(echo "${dist}" | cut -f1 -d '/').conf dists/${dist} > dists/${dist}/Release 2>/dev/null
 	
 	gpg -abs -u 4CDF62E5176EA441 -o dists/${dist}/Release.gpg dists/${dist}/Release
+	gpg -abs -u 4CDF62E5176EA441 --clearsign -o dists/${dist}/InRelease dists/${dist}/Release
 done
 
 #rm -rf tmp{bingner,odyssey,zebra,installer}/

@@ -351,19 +351,19 @@ Author: Sileo Team <getsileoapp@gmail.com>
 
 Package: org.coolstar.sileobeta
 Architecture: iphoneos-arm
-Version: 2.0.0b2
+Version: 2.0.0b3
 Priority: required
 Section: Packaging
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo (>=1.9.3)
 Conflicts: cydia-gui (<<99.0)
-Filename: https://repo.theodyssey.dev/debs/./org.coolstar.sileobeta_2.0.0b2_iphoneos-arm.deb
-Size: 3227132
-MD5sum: 406a96141dc9fceaadfb5643a4307bfd
-SHA1: b797d6cd4340b30612830633958be30b1838cecd
-SHA256: ac38abba8bd72e943b16201699135b9bdeb031e137bcd278eb04f69ef86dc336
-SHA512: 7fa5c00420966e4e0061236f193658b1f2755bef488067de08069c9f8458222ac870d174b9ac2ace3ed6f70d1ca9bf5353bcd9cb417b3630581c482874aeb6d0
+Filename: https://repo.theodyssey.dev/debs/./org.coolstar.sileobeta_2.0.0b3_iphoneos-arm.deb
+Size: 3284076
+MD5sum: 09178e96df31dd86c0e7242f511f1e3e
+SHA1: c265210d3140e06b2b64b822ac350be0ac21ca35
+SHA256: 923d42f51aab23531e053747b17f05d4c3f9971b34eb34a933c9b8db047feb7b
+SHA512: 32e5b7d75a603bc636658767eaf3f62030b57bf1178755055fb86a7cf522668991d0fc2acf998f11ca1a399b31fdd6120b39cab155e6886d6f5a5ded29fc91bb
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
 Tag: cydia::essential
 Icon: https://getsileo.app/img/icon.png
