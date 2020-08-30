@@ -1,52 +1,52 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
 Architectures: iphoneos-arm
 Codename: iphoneos-arm64
 Components: main
-Date: Thu, 27 Aug 2020 22:04:39 +0000
+Date: Sun, 30 Aug 2020 16:45:35 +0000
 Description: Proxy of substrate and a lot of package mangers
 Label: Subcursus
 Origin: Subcursus
 Suite: stable
 Version: 0.1
 MD5Sum:
- 539f8f9f961a4c6d216a46676311e830              231 Release
- 7524e19b684b3e054a27da925c54e89f            33388 main/binary-iphoneos-arm/Packages
- 3b70278501dd3c3743c51b367b314e59             7728 main/binary-iphoneos-arm/Packages.xz
- b753f419e67fdf5452be00e18afbd0f5             7683 main/binary-iphoneos-arm/Packages.zst
- 96a9bd3dda785f68dfea7091bedfe85d             1659 main/binary-iphoneos-arm/Release
+ c96314de34ac4c9514fd110d0d2c91e1              231 Release
+ 130e9ab4274b76199091d8646633cf98            34535 main/binary-iphoneos-arm/Packages
+ e91af6bd1962e39efa729a0ef707a288             7880 main/binary-iphoneos-arm/Packages.xz
+ 4b79003432b61135c7b3588b84b5cf3b             7837 main/binary-iphoneos-arm/Packages.zst
+ ebbbfd466758de11568c6de041d93b8d             1659 main/binary-iphoneos-arm/Release
 SHA1:
- 3dc9de77355e546a9f2d888393f2595dd1002e05              231 Release
- 094563375e25157af6817708f248fcff6042f210            33388 main/binary-iphoneos-arm/Packages
- 9ed28d82c5bc7cea31a71e7090029c145da5d7bb             7728 main/binary-iphoneos-arm/Packages.xz
- deaae21c898a0d46eb1284e8053e3030d710897f             7683 main/binary-iphoneos-arm/Packages.zst
- cbe736a300eda637e80774c16650dfcaa4f612a3             1659 main/binary-iphoneos-arm/Release
+ f96a1e33766a24aeb6833d52f35ab696527c0e66              231 Release
+ c67d7d6588526b8aa606d32e96cce59c5c21d518            34535 main/binary-iphoneos-arm/Packages
+ a61134c9da586d22d0c27d50272630fe89ec91c7             7880 main/binary-iphoneos-arm/Packages.xz
+ a7038fbd82158fe4aabb64e33daaef59f8dfce8b             7837 main/binary-iphoneos-arm/Packages.zst
+ ac337413635a5a8105885ab85f6d57d2ea541c23             1659 main/binary-iphoneos-arm/Release
 SHA256:
- 654a42db1a536e02d8abd62a0fe7b497ae7bbfdca8f9d467c845d27f959070d9              231 Release
- a65afb9a92d4b7b1b69aef11b0429ddae3db91c3cc456690837625a99ac9988e            33388 main/binary-iphoneos-arm/Packages
- 555fc68f1a519f9f44582d2f9bc9ba4d1824dab895413b049d3e95890f147a25             7728 main/binary-iphoneos-arm/Packages.xz
- 27265b9045626c611664f98f16cac478387a77b852bf514d19496e488d2b347f             7683 main/binary-iphoneos-arm/Packages.zst
- 5786483f401832b3a3c7ecfcd66abf13fec2338c42eefcc5210cd28b13a1b768             1659 main/binary-iphoneos-arm/Release
+ 3252284a9318bbd65fe88aa29db5d050511c2e71b021dd6ea80afe172eba2ff9              231 Release
+ e7fa9dfadc3d36159792f9403573e7e2d1b43b33fef1acc6741f9feb466d08ec            34535 main/binary-iphoneos-arm/Packages
+ 882123f79e787a9a068623f81845e896c7a086e267a68dd17fe04b3f1344e3ea             7880 main/binary-iphoneos-arm/Packages.xz
+ 04049ab154d005005a452593073bb0ccd353806484f098832fe45799699e14c5             7837 main/binary-iphoneos-arm/Packages.zst
+ 834b93c6a418fdedad57f87928bf7847d660188c9c11f3d0b0cde7e933f0f666             1659 main/binary-iphoneos-arm/Release
 SHA512:
- 33611ad6ce34f8e3fb6249f8376ba70e1d14810b876787768def9747ba609a29390c78577ae3364014481b0a24139395d37865f250469622fb1fbc146e0b82de              231 Release
- 36df940806ec7ce8bd8c5208976879a4333ee7068d2abea7f1dc5eafd453eb0acdfead49340ffab66ca1d237d51d55bd90de2b280d6a5f42230c17ad176af6d4            33388 main/binary-iphoneos-arm/Packages
- cf08718ce8f2c4c075f30124bc5ab8c528b93c0a522643c131c679d4122d61edee76b77eef6ece1db6aeb5227ca6429f0dc42a378a28cc6c2c83d42e7d697ed6             7728 main/binary-iphoneos-arm/Packages.xz
- 83b479fefb7cb33816dcd935204f40bfc15689dc48273d940bc4fbf97fe4b6830500ad82b9dc5ed685da1792b4bb5102364f9e54557dab92e28290547d7e0de2             7683 main/binary-iphoneos-arm/Packages.zst
- 02ead60380c7514f36bd15f75a23b5e3da893c96a630accd9d44f8d13f8a0efcfc23c5aaafc39fa544d904bbe91871ba835fc6d5a1a4257420214f893457f38e             1659 main/binary-iphoneos-arm/Release
+ dce75a6a424f13a43ef2ae5e90f49c2644a199884f150b50afda489599191c9766b5b31d36a87f6e3e15ebc6c10bc82fb1acec37bf287a47fffe9dd43b3a15bb              231 Release
+ c30b5bfe01454bcae9532dedcf44e7b826e3523005efd0fbc32b0451f2241814573f37a6bf443ad66da9ccd7fa361bcfa05d3d9d96501b46b79bc7706966e4f0            34535 main/binary-iphoneos-arm/Packages
+ 739a1cf04430a1d27f0cbb3ca1f47f8a33b1e79d96bc72baef24fb405324b5c44b0b4f47c7426f7775e1f3fba09fd29d8487e53bc88cf7644358e2bd314553ae             7880 main/binary-iphoneos-arm/Packages.xz
+ f5163da4fa313c76b43f99eb6ab38ecba2fdc2aace30fbd2310d067b853059ce72d880dc13f0eb128a97344574ee08360203894e3eac2d6ea518c4b9872a4b46             7837 main/binary-iphoneos-arm/Packages.zst
+ d29b1cea7e4682ec93f7a2437bf3794dac9cc9c9892c37e75aaf89a48b28068c1c30cbf07bb2d962fe50e2691c4ca18601acd7086bdca0d14460e72fee061038             1659 main/binary-iphoneos-arm/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEE5XDtch16OIZiL3LlUwXeHv9D0JEFAl9ILggACgkQUwXeHv9D
-0JFQixAAjA9ntEZy1R5f0qI8wUWFS9G1wJ5MfEZe7cGqEGseqjHnfsmAJvMvmR4C
-hhoRFVYXEtcWgCfPc8ml4aIDLyPHH+paQTVadL5wny+t623SRKND0gzv0F2aR7AN
-a93fmKMVE2awwRBIz4RKtprSu3adHEvlqj6er1FZG4s96kJnyzlSBkVRscjx8Ucf
-0T7JKZzI0u6n992vsly691IB0BS5G0rBJ2qjrmaMM1p1S36s1JPoElwOFwv7feLj
-3dvvTc8uqlhA4IJeMuvlmvEnjNBs9rnPv0nO138rP6efl/X4rGZWZ1baSrqmQ+Ej
-S2ow3l3pmXV8xUG9A0ydTiNx20UhQZPfDjP2WeIVXHNLjbTE2Xrlaf+J9i86fJFi
-pOXGpvaTlhr5GxNB7LoyFiNWCtGHcgDeIxiiFIE0ziMvJUnzTl3BoQduuTVF5G5y
-twtZSytSWByzEQDmMzzLb3jq8swk/Ut79AYEXHnUQWhsGOJWZdeqiHZKw/ZwEj84
-43/HThthA6r9WpcYyPZEenfRi2acNeUr9YLHYJ7uDLlApMLUAATmuHwPlQ1qAnpp
-HD4qMla5rFUlK1Brev1XRpazEAhjn3iW3JT/PvdcsXdHard5R0qUVMMt3GcF8xTN
-KlQ5oNz5stxfyzpu8C5WTN3WICM/++5Tczzl2+LpRDzNUqhM80w=
-=B55t
+iQIzBAEBCgAdFiEE5XDtch16OIZiL3LlUwXeHv9D0JEFAl9L17QACgkQUwXeHv9D
+0JGuRhAAwjNv/LoMcAAIaCuhtbuNjddAV0L5ubbe+pz7KO23CbbeHuUhdkz92MJT
+GJ9jAZleBu91IFs+kyhKrzQXdC76u0Sr+yXfeGpDbS2HFHk2dzhB+xmdFd+WnxY5
+KfyQQPYUBePcCtUwLHP/2rcQMxn2n1RWmeAQyRZ2tuZRSoZUPPx4BuR3/TSFhjNJ
+jgcwZgyCf28IO/CYFgdDGBHG2LfXvYRM27+dreMo8495qobpn6cM+/q+ranlogHv
+dEyAjCrER19hqi3JHDnvTtoEaqVtJNw0+VBYJ0CQmfftqul1w5oqqwZvU8h1G2hb
+czGzXrNkd3P1F7Ffs0xfH2E8UAH0YekAQCNlng0wGF/58OEcC3P2EDrhPmpE1KiA
+SDBTZ2WQQ0T/PYAlDaZwR4P+wkJ3g9EZ9B4PAtTrD2RAGIVqfKfj/bt5oAWOc8nW
+crz5jDbcnRThUChsSeBBxzu69pNNaii9zCplj0P/OU947Q9vBWKGBNOWvDaqNazg
+pV46z4c1kox5YgDg/P4+DRRDn22cPWodZrQJelC+01Zmxn9jHLR68/rN1AVm+ig6
+QnVwPa+V85D+7Sk/1JUykdHQMrOlrBRifDHLdNyLhx7USOIlF77eyhy2B7v9ZS6g
+aogdSqRXuDnUzQbFo4KTALM7d507X/2hDBJPjkZgqqVT81LqBPo=
+=w0bJ
 -----END PGP SIGNATURE-----

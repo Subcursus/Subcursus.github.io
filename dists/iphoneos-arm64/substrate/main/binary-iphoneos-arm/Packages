@@ -327,6 +327,28 @@ Name: Cydia Substrate
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.7111
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: https://apt.bingner.com/debs/1443.00/./mobilesubstrate_0.9.7111_iphoneos-arm.deb
+Size: 2531870
+MD5sum: 21846e52f68deacef11355fb0f90e3e1
+SHA1: d2388b511c6a683222c6ace60e9d20bd0b036d8d
+SHA256: e72704e8cc69239939b78ab3706f43f9b449425270bacc3cd8a4160b6986e8c0
+SHA512: 0a2601d4b981b658ae5aab5dcf79ee9eb972753236b49b444bed0296c2dfa665f5ee2d82203d08f712ec947ab3feb8018809b7a1f905c54ca6dd3a7d627acfcc
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 1.9.3
