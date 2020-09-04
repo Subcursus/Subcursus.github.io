@@ -37,7 +37,7 @@ for dist in iphoneos-arm64/{substrate,substitute}; do
 	arch=iphoneos-arm
 	binary=binary-${arch}
 	mkdir -p dists/${dist}/main/${binary}
-	rm -f dists/${dist}/{Release{,.gpg},main/${binary}/{Packages{,.xz,.zst},Release{,.gpg}}}
+	rm -f dists/${dist}/{InRelease,Release{,.gpg},main/${binary}/{Packages{,.xz,.zst},Release{,.gpg}}}
 	cp -a CydiaIcon*.png dists/${dist}
 	
 	apt-ftparchive packages pool/main/${dist} > \
