@@ -57,7 +57,7 @@ echo 'touch /.mount_rw' >> device.sh
 echo 'touch /.installed_subcursus' >> device.sh
 echo 'rm bootstrap-ssh.tar' >> device.sh
 echo 'rm packagemanager.deb' >> device.sh
-echo 'rm cameronkatri-keyring_2020.08.26_iphoneos-arm.deb' >> device.sh
+echo 'rm cameronkatri-keyring_2020.09.05_iphoneos-arm.deb' >> device.sh
 echo 'rm device.sh' >> device.sh
 
 echo "1 for cydia"
