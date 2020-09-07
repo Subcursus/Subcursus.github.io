@@ -1,24 +1,24 @@
 Architectures: iphoneos-arm
-Date: Sun, 06 Sep 2020 16:00:37 +0000
+Date: Mon, 07 Sep 2020 16:00:37 +0000
 Label: Subcursus
 Origin: Subcursus
 MD5Sum:
  af9360b9705fefc59905b07eaf3cd396            24750 Packages
  12ae0a34724422f6a5c4654777c531cf             6524 Packages.xz
  dd8f65bfc0444efcf9e2e734d4e568fd             6500 Packages.zst
- cb36b0d0625e9bc7708e0cf346ce1b2f              101 Release
+ abf54b70e1c11b3a1996e5671ce2eefc              101 Release
 SHA1:
  f30376a1f69343341722b4e2a4accd42a548ba1e            24750 Packages
  b9d4fddf2f496a8283202deba51e23b8eac91583             6524 Packages.xz
  11b99dbfd2c6668aaec1cd96625ad4b7d4f4d120             6500 Packages.zst
- 10d8125242c2da1548fe57605f1059e04dd76316              101 Release
+ c93d63890add82e29354568e680f0dbdb1a86a4c              101 Release
 SHA256:
  2a345bf5fccd50da08afef126d2492f3c5a641019182c98b45371970e9645e5b            24750 Packages
  e51c572d136cd7ebcc9a8c45cb247073996acbc61924094bb89a42d56e4873fd             6524 Packages.xz
  d31b7d3e3188a3fcb01c64781c4770db447b2b1973dd54dcf65bd8a194222b30             6500 Packages.zst
- c3664dd0d408b8e207b9894ac376bec71b66f1f735233b84c3a97a1080a7f613              101 Release
+ 1e9496da68619c5060056fb7fb7598658b638578ae630109b4aec2ef450277aa              101 Release
 SHA512:
  982667f576e3b2c613c0f9ba88c34da40e08d355e5888600102c43c8dda32c08c7acd99b3329151d97958564c0a55b9a75b7568c6aa0db61472605efc01143c1            24750 Packages
  5e67695e1dc0926e2e6f28bfd7cb4be7ce35820daf78ab3f5a7a4635f903bc033aaaa19ae87a33482674ac624e833a888f718df555301599670bd67c7d2e3fe0             6524 Packages.xz
  90eaebe328749531c06319d57ff9e064b630036ed9a86f260a7484b84ac1ffc920a89950d1f2a353f2db79b6d0bfe5901621b6d95ade467277f850dee5803ba3             6500 Packages.zst
- 77291052abe9da360167e1dc94f0379cb7166fc0ccdff5482c04ccedfbdc96c46de55ec9cbd6f555033187cef0b0848b03b59bd7d0124cc83b5d926da9d462ff              101 Release
+ 84b8edceb77d2c67ee31d5dc0ec2c158cfeb5ac3c3f5c6f40922bc8744fda95c87a16c9aa51a34fc2eeed99a89971176cfd66a6207b3211eda0c66b81f22dbea              101 Release
