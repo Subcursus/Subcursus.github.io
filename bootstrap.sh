@@ -42,7 +42,7 @@ echo 'echo "Suites: iphoneos-arm64/substrate" >> /etc/apt/sources.list.d/subcurs
 echo 'echo "Components: main" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
 echo 'echo "" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
 echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games dpkg -i packagemanager.deb' >> device.sh
-echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games dpkg -i cameronkatri-keyring_2020.08.26_iphoneos-arm.deb' >> device.sh
+echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games dpkg -i cameronkatri-keyring_2020.09.05_iphoneos-arm.deb' >> device.sh
 echo 'uicache -a' >> device.sh
 echo 'echo -n "" > /var/lib/dpkg/available' >> device.sh
 echo '/Library/dpkg/info/profile.d.postinst' >> device.sh
@@ -57,7 +57,7 @@ echo 'touch /.mount_rw' >> device.sh
 echo 'touch /.installed_subcursus' >> device.sh
 echo 'rm bootstrap-ssh.tar' >> device.sh
 echo 'rm packagemanager.deb' >> device.sh
-echo 'rm cameronkatri-keyring_2020.09.05_iphoneos-arm.deb' >> device.sh
+echo 'rm cameronkatri-keyring_*_iphoneos-arm.deb' >> device.sh
 echo 'rm device.sh' >> device.sh
 
 echo "1 for cydia"
@@ -78,13 +78,13 @@ elif [ "3" = $packagemanager ]; then
 fi
 
 if [ "1" = $version ]; then
-	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1600/bootstrap-ssh.tar.zst -O https://raw.githubusercontent.com/Subcursus/Subcursus.github.io/master/pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.08.26_iphoneos-arm.deb
+	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1600/bootstrap-ssh.tar.zst -O https://raw.githubusercontent.com/Subcursus/Subcursus.github.io/master/pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.09.05_iphoneos-arm.deb
 elif [ "2" = $version ]; then
-	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1500/bootstrap-ssh.tar.zst -O https://raw.githubusercontent.com/Subcursus/Subcursus.github.io/master/pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.08.26_iphoneos-arm.deb
+	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1500/bootstrap-ssh.tar.zst -O https://raw.githubusercontent.com/Subcursus/Subcursus.github.io/master/pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.09.05_iphoneos-arm.deb
 fi
 
 zstd -d bootstrap-ssh.tar.zst
-scp -P4444 -o "StrictHostKeyChecking no" -o "UserKnownHostsFile=/dev/null" bootstrap-ssh.tar packagemanager.deb device.sh cameronkatri-keyring_2020.08.26_iphoneos-arm.deb root@127.0.0.1:/var/root/
+scp -P4444 -o "StrictHostKeyChecking no" -o "UserKnownHostsFile=/dev/null" bootstrap-ssh.tar packagemanager.deb device.sh cameronkatri-keyring_2020.09.05_iphoneos-arm.deb root@127.0.0.1:/var/root/
 ssh -p4444 -o "StrictHostKeyChecking no" -o "UserKnownHostsFile=/dev/null" root@127.0.0.1 "bash /var/root/device.sh"
 
 killall iproxy
