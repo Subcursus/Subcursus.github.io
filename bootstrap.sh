@@ -13,8 +13,9 @@ read -p "Press enter to continue"
 
 iproxy 4444 44 >> /dev/null 2>/dev/null &
 
-echo "1 for *OS 13"
-echo "2 for *OS 12"
+echo "1 for *OS 14"
+echo "2 for *OS 13"
+echo "3 for *OS 12"
 read version
 
 echo '#!/bin/bash' > device.sh
@@ -46,12 +47,14 @@ echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin
 echo 'uicache -a' >> device.sh
 echo 'echo -n "" > /var/lib/dpkg/available' >> device.sh
 echo '/Library/dpkg/info/profile.d.postinst' >> device.sh
+echo 'mkdir -p /var/mobile/Library/Application\ Support/xyz.willy.Zebra/' >> device.sh
 if [ "1" = $version ]; then
-	echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1600 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
+	echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1700 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 elif [ "2" = $version ]; then
+	echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1600 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
+elif [ "3" = $version ]; then
 	echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1500 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 fi
-echo 'mkdir -p /var/mobile/Library/Application\ Support/xyz.willy.Zebra/' >> device.sh
 echo 'echo "deb https://apt.subcursus.cf/ iphoneos-arm64/substrate main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 echo 'touch /.mount_rw' >> device.sh
 echo 'touch /.installed_subcursus' >> device.sh
@@ -67,19 +70,23 @@ read packagemanager
 
 if [ "1" = $packagemanager ]; then
 	if [ "1" = $version ]; then
-		curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1600/cydia_1.1.33_iphoneos-arm.deb
+		curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1700/cydia_1.1.33_iphoneos-arm.deb
 	elif [ "2" = $version ]; then
+		curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1600/cydia_1.1.33_iphoneos-arm.deb
+	elif [ "3" = $version ]; then
 		curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1500/cydia_1.1.33_iphoneos-arm.deb
 	fi
 elif [ "2" = $packagemanager ]; then
-	curl -L -o packagemanager.deb https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.12_iphoneos-arm.deb
+	curl -L -o packagemanager.deb https://getzbra.com/repo/pkgfiles/xyz.willy.zebra_1.1.13_iphoneos-arm.deb
 elif [ "3" = $packagemanager ]; then
 	curl -L -o packagemanager.deb https://github.com/coolstar/odyssey-bootstrap/raw/master/org.coolstar.sileo_1.8.1_iphoneos-arm.deb
 fi
 
 if [ "1" = $version ]; then
-	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1600/bootstrap-ssh.tar.zst -O https://raw.githubusercontent.com/Subcursus/Subcursus.github.io/master/pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.09.05_iphoneos-arm.deb
+	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1700/bootstrap-ssh.tar.zst -O https://raw.githubusercontent.com/Subcursus/Subcursus.github.io/master/pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.09.05_iphoneos-arm.deb
 elif [ "2" = $version ]; then
+	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1600/bootstrap-ssh.tar.zst -O https://raw.githubusercontent.com/Subcursus/Subcursus.github.io/master/pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.09.05_iphoneos-arm.deb
+elif [ "3" = $version ]; then
 	curl -L -O https://apt.procurs.us/dists/iphoneos-arm64/1500/bootstrap-ssh.tar.zst -O https://raw.githubusercontent.com/Subcursus/Subcursus.github.io/master/pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.09.05_iphoneos-arm.deb
 fi
 
