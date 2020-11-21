@@ -70,6 +70,23 @@ Description: GnuPG key for Cameron Katri's repositories.
 Tag: purpose::backend, role::hacker
 Name: Subcursus APT Keyring
 
+Package: cameronkatri-keyring
+Architecture: iphoneos-arm
+Version: 2020.11.21
+Priority: required
+Section: System
+Maintainer: Cameron Katri <katri.cameron@gmail.com>
+Installed-Size: 15
+Filename: pool/main/iphoneos-arm64/substrate/cameronkatri-keyring_2020.11.21_iphoneos-arm.deb
+Size: 8472
+MD5sum: ad8be11985272b2f5c34aca87cb563ee
+SHA1: 18467aa1e4f3ad1c647014b950cf00ee8a8d9c88
+SHA256: eb730cbaf898e54dc54b509b1f119e9116c47f7ae54725ffb774b2867f5268bb
+SHA512: d1c972678519d3ffbc8d3587587684ae2731151073938cd5b13564a7d8f5b16615113a0827c74d8efb317b8d5088f4350837a69cca00b7131df1efa5d7a6bef4
+Description: GnuPG key for Cameron Katri's repositories.
+Tag: purpose::backend, role::hacker
+Name: Subcursus APT Keyring
+
 Package: sileofix
 Architecture: iphoneos-arm
 Version: 1.0
@@ -369,47 +386,25 @@ Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
-Version: 2.0.0b6
+Version: 2.0.0b7-1
 Priority: required
 Section: Packaging
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Installed-Size: 12652
+Installed-Size: 12728
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: cydia-gui (<<99.0)
-Filename: https://repo.theodyssey.dev/debs/./org.coolstar.sileo_2.0.0b6_iphoneos-arm.deb
-Size: 3300178
-MD5sum: 0c895e038a1c13e4af04a46aac1eb10e
-SHA1: 5f81b9e70ee95d44826139db13e89336ff5186c5
-SHA256: c25f66dd6683ff926fa9004d0c51571d2a0e8d4da2ffa5696a6bad51f43659e8
-SHA512: f931a77fd58693657303873c80d7c8fc226f9ddc19a78a1aa75a6ed83a469cebbee08fca10d7837f3d308091d2b54eef2f29e54bc9f0385e442b4dc22c3fc2e1
+Filename: https://repo.theodyssey.dev/debs/./org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb
+Size: 3411310
+MD5sum: 569abb7fe4f1afc9f3014bede3c28a46
+SHA1: 482ad0a4c248e6803efa3945e4bb7d6506bdef36
+SHA256: eba26fc1a37ac5b81b2f78ca6c4cbf8b38f7388b85ec5c6faeb9f5ba378b10cc
+SHA512: 4a3b8019b652c205926849ea8217ad3e62d073211da3a2b044349f951f4fb30c75cc0cd6456e2db61116a10c7f8d90f57b1147d4ffaf143b7024ac67a480c07d
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
 Tag: cydia::essential
 Icon: https://getsileo.app/img/icon.png
 SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 Name: Sileo
-Author: Sileo Team <getsileoapp@gmail.com>
-
-Package: org.coolstar.sileobeta
-Architecture: iphoneos-arm
-Version: 2.0.0b4-1
-Priority: required
-Section: Packaging
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 2.1.10-1), coreutils (>=8.32-4), dpkg (>= 1.19.2-4), procursus-keyring, zsh, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo (>=1.9.3)
-Conflicts: cydia-gui (<<99.0)
-Filename: https://repo.theodyssey.dev/debs/./org.coolstar.sileobeta_2.0.0b4-1_iphoneos-arm.deb
-Size: 3288624
-MD5sum: 8fca3f3db139776019e1cbd8875bd73c
-SHA1: 463104feba07ad03ec2ec546d7b01b7a79e8196a
-SHA256: 2d2ac393229271b47d716ae6879b1968ade3cd33598c346c21da8dd086c26b28
-SHA512: 9fb4ce926dbb7119aadb3b38fd90fd072f47dcb326daf7178c9c71cee0e1c4be89be8884169ea985375d0c91dccd3363b5cdae61c00782bd047393e6f53fd813
-Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-Name: Sileo (Beta Channel)
 Author: Sileo Team <getsileoapp@gmail.com>
 
 Package: xyz.willy.zebra
@@ -502,6 +497,44 @@ SHA256: ac0f9651e837705fdd766b708d24d502dbcd2ebfbf0e293d6c91b0c19eea9926
 SHA512: 6618fe8ebabba0dec49202942cab5392f86480811665fa8aefeb050e900e9a288aedb316302dc56073f1fa2d97e178561e7794ad29f8d900bba86d121f1a691e
 Description: A Useful Package Manager
 Tag: compatible::9.0-13.5
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.14
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 59212
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.14_iphoneos-arm.deb
+Size: 19163414
+MD5sum: b5e679ffe8b9d6d49bcde0400bf68032
+SHA1: f6de3a1973fce5d57f4a0df49775b8ab343b75ea
+SHA256: f847a8bbcbf1c54f8439eb7ec6085a854f746974811fdfab571a87b9cf1348b0
+SHA512: f01da8b660c5475efd9d1fa0e7010dcc3b3083991fc4151744a97c09dcfa5863dab33e14d70c34dfb16de035398391eeb9fab10d6df3e1b81c5eadd3b5cda8ce
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.2
+Name: Zebra
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.15
+Section: Packaging
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 58328
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.15_iphoneos-arm.deb
+Size: 19159146
+MD5sum: 26b417d613852bf95d310eac1399da48
+SHA1: 4ef3620b5f7ceb8b8401cb35800338bc6efb9293
+SHA256: 490c5c21af2a1a9e0352b7492cfc49707d2ef39933293229c565b156d695867b
+SHA512: 4beacc211911687af5ad3f617b58b8207acb22376dc43d1710aca003ad38e59719089a9f33ac3d4878c7fa0ef69d9490d47eebad9505bb46018c1d2406932bbe
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.2
 Name: Zebra
 Author: Wilson Styres <wilson@styres.me>
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
