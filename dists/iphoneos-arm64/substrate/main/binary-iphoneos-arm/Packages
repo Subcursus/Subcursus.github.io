@@ -208,6 +208,27 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6005
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: https://apt.bingner.com/debs/1443.00/./com.saurik.substrate.safemode_0.9.6005_iphoneos-arm.deb
+Size: 22736
+MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
+SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
+SHA256: de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87
+SHA512: 96bc00fdd620d18beff17ff73835baf264832f9ada2eaf01b641362a8a9641d2d31e48c91f1c3062d09a62c6cf37903cf511d5c6a2e03e1427d33927197fc1f0
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
 Package: mobilesubstrate
 Architecture: iphoneos-arm
 Version: 0.9.7101
