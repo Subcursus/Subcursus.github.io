@@ -67,14 +67,14 @@ read packagemanager
 
 if [ "1" = $packagemanager ]; then
 	if [ "1" = $version ]; then
-		curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1600/cydia_1.1.33_iphoneos-arm.deb
+		curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1600/cydia_1.1.36-1_iphoneos-arm.deb
 	elif [ "2" = $version ]; then
-		curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1500/cydia_1.1.33_iphoneos-arm.deb
+		curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1500/cydia_1.1.36-1_iphoneos-arm.deb
 	fi
 elif [ "2" = $packagemanager ]; then
-	curl -L -o packagemanager.deb https://getzbra.com/repo/pkgfiles/./xyz.willy.zebra_1.1.12_iphoneos-arm.deb
+	curl -L -o packagemanager.deb https://getzbra.com/repo/pkgfiles/xyz.willy.zebra_1.1.15_iphoneos-arm.deb
 elif [ "3" = $packagemanager ]; then
-	curl -L -o packagemanager.deb https://github.com/coolstar/odyssey-bootstrap/raw/master/org.coolstar.sileo_1.8.1_iphoneos-arm.deb
+	curl -L -o packagemanager.deb https://github.com/coolstar/odyssey-bootstrap/raw/master/org.coolstar.sileo_2.0.0b6_iphoneos-arm.deb
 fi
 
 if [ "1" = $version ]; then
@@ -84,7 +84,7 @@ elif [ "2" = $version ]; then
 fi
 
 zstd -d bootstrap-ssh.tar.zst
-scp -P4444 -o "StrictHostKeyChecking no" -o "UserKnownHostsFile=/dev/null" bootstrap-ssh.tar packagemanager.deb device.sh cameronkatri-keyring_2020.09.05_iphoneos-arm.deb root@127.0.0.1:/var/root/
+scp -P4444 -o "StrictHostKeyChecking no" -o "UserKnownHostsFile=/dev/null" bootstrap-ssh.tar packagemanager.deb device.sh cameronkatri-keyring_*_iphoneos-arm.deb root@127.0.0.1:/var/root/
 ssh -p4444 -o "StrictHostKeyChecking no" -o "UserKnownHostsFile=/dev/null" root@127.0.0.1 "bash /var/root/device.sh"
 
 killall iproxy
