@@ -70,13 +70,13 @@ echo 'uicache -a' >> device.sh
 echo 'echo -n "" > /var/lib/dpkg/available' >> device.sh
 echo '/Library/dpkg/info/profile.d.postinst' >> device.sh
 if [ "1" = $version ]; then
+    echo 'mkdir -p /var/mobile/Library/Application\ Support/xyz.willy.Zebra/' >> device.sh
     echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1700 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 elif [ "2" = $version ]; then
     echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1600 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 elif [ "3" = $version ]; then
     echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1500 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 fi
-echo 'mkdir -p /var/mobile/Library/Application\ Support/xyz.willy.Zebra/' >> device.sh
 echo 'echo "deb https://apt.subcursus.cf/ iphoneos-arm64/substrate main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 echo 'touch /.mount_rw' >> device.sh
 echo 'touch /.installed_subcursus' >> device.sh
