@@ -1,27 +1,22 @@
 #!/usr/bin/env bash
 
-mkdir tmp{bingner,odyssey,chimera,zebra,installer}/
+mkdir tmp{bingner,odyssey,zebra,installer}/
 
 wget -O tmpbingner/Packages https://apt.bingner.com/dists/ios/1443.00/main/binary-iphoneos-arm/Packages
 wget -O tmpodyssey/Packages https://repo.theodyssey.dev/Packages
-wget -O tmpchimera/Packages https://repo.chimera.sh/Packages
 wget -O tmpzebra/Packages https://getzbra.com/repo/Packages
 wget -O tmpinstaller/Packages https://apptapp.me/repo/Packages
 
-for deb in $(grep "mobilesubstrate_\|com.saurik.substrate.safemode_" tmpbingner/Packages | cut -c 11-); do
+for deb in $(grep "mobilesubstrate_\|com.saurik.substrate.safemode_\|com.ex.substitute_" tmpbingner/Packages | cut -c 11-); do
 	wget -nc -P tmpbingner https://apt.bingner.com/${deb}
 done
 rm tmpbingner/Packages
+
 
 for deb in $(grep "org.coolstar.sileo_\|org.coolstar.sileobeta_" tmpodyssey/Packages | cut -c 11-); do
 	wget -nc -P tmpodyssey https://repo.theodyssey.dev/${deb}
 done
 rm tmpodyssey/Packages
-
-for deb in $(grep "mobilesubstrate_\|org.coolstar.tweakinject_\|com.ex.substitute_\|libhooker-strap_" tmpchimera/Packages | cut -c 11-); do
-	wget -nc -P tmpchimera https://repo.chimera.sh/${deb}
-done
-rm tmpchimera/Packages
 
 for deb in $(grep "xyz.willy.zebra_" tmpzebra/Packages | cut -c 13-); do
 	wget -nc -P tmpzebra https://getzbra.com/repo/${deb}
@@ -46,7 +41,7 @@ for dist in iphoneos-arm64/{substrate,substitute}; do
 		apt-ftparchive packages ./tmpbingner >> \
 			dists/${dist}/main/${binary}/Packages 2>/dev/null
 	else
-		apt-ftparchive packages ./tmpchimera >> \
+		apt-ftparchive packages ./tmpbingner >> \
 			dists/${dist}/main/${binary}/Packages 2>/dev/null
 	fi
 	apt-ftparchive packages ./tmpodyssey >> \
@@ -58,7 +53,6 @@ for dist in iphoneos-arm64/{substrate,substitute}; do
 	
 	sed -i 's+./tmpbingner+https://apt.bingner.com/debs/1443.00/.+g' dists/${dist}/main/${binary}/Packages
 	sed -i 's+./tmpodyssey+https://repo.theodyssey.dev/debs/.+g' dists/${dist}/main/${binary}/Packages
-	sed -i 's+./tmpchimera+https://repo.chimera.sh/debs/.+g' dists/${dist}/main/${binary}/Packages
 	sed -i 's+./tmpzebra+https://getzbra.com/repo/pkgfiles/.+g' dists/${dist}/main/${binary}/Packages
 	sed -i 's+./tmpinstaller+https://apptapp.me/repo/debs/.+g' dists/${dist}/main/${binary}/Packages
 	
