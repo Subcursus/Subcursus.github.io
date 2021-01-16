@@ -23,6 +23,10 @@ echo "2 for zebra"
 echo "3 for sileo"
 read packagemanager
 
+echo "1 for Substrate"
+echo "2 for Substitute"
+read hookinglibrary
+
 rm -rf SubcursusFiles/
 mkdir SubcursusFiles
 cd SubcursusFiles/
@@ -44,11 +48,19 @@ echo 'tar --preserve-permissions -xkf bootstrap-ssh.tar -C /' >> device.sh
 echo 'snappy -f / -r $(snappy -f / -l | sed -n 2p) -t orig-fs' >> device.sh
 echo '/usr/libexec/firmware' >> device.sh
 echo 'mkdir -p /etc/apt/sources.list.d/' >> device.sh
-echo 'echo "Types: deb" > /etc/apt/sources.list.d/subcursus.sources' >> device.sh
-echo 'echo "URIs: https://apt.subcursus.cf/" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
-echo 'echo "Suites: iphoneos-arm64/substrate" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
-echo 'echo "Components: main" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
-echo 'echo "" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+if [ "1" = $hookinglibrary ]; then
+    echo 'echo "Types: deb" > /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+    echo 'echo "URIs: https://apt.subcursus.cf/" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+    echo 'echo "Suites: iphoneos-arm64/substrate" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+    echo 'echo "Components: main" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+    echo 'echo "" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+elif [[ "2" = $hookinglibrary ]]; then
+    echo 'echo "Types: deb" > /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+    echo 'echo "URIs: https://apt.subcursus.cf/" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+    echo 'echo "Suites: iphoneos-arm64/substitute" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+    echo 'echo "Components: main" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+    echo 'echo "" >> /etc/apt/sources.list.d/subcursus.sources' >> device.sh
+fi
 if [ "1" = $version ]; then
     echo 'rm /etc/apt/sources.list.d/procursus.sources' >> device.sh
     echo 'echo "Types: deb" > /etc/apt/sources.list.d/procursus.sources' >> device.sh
@@ -73,11 +85,17 @@ if [ "1" = $version ]; then
     echo 'mkdir -p /var/mobile/Library/Application\ Support/xyz.willy.Zebra/' >> device.sh
     echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1700 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 elif [ "2" = $version ]; then
+    echo 'mkdir -p /var/mobile/Library/Application\ Support/xyz.willy.Zebra/' >> device.sh
     echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1600 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 elif [ "3" = $version ]; then
+    echo 'mkdir -p /var/mobile/Library/Application\ Support/xyz.willy.Zebra/' >> device.sh
     echo 'echo "deb https://apt.procurs.us/ iphoneos-arm64/1500 main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
 fi
-echo 'echo "deb https://apt.subcursus.cf/ iphoneos-arm64/substrate main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
+if [ "1" = $hookinglibrary ]; then
+    echo 'echo "deb https://apt.subcursus.cf/ iphoneos-arm64/substrate main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
+elif [[ "2" = $hookinglibrary ]]; then
+    echo 'echo "deb https://apt.subcursus.cf/ iphoneos-arm64/substitute main" >> /var/mobile/Library/Application\ Support/xyz.willy.Zebra/sources.list' >> device.sh
+fi
 echo 'touch /.mount_rw' >> device.sh
 echo 'touch /.installed_subcursus' >> device.sh
 echo 'rm bootstrap-ssh.tar' >> device.sh

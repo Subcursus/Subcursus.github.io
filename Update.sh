@@ -13,7 +13,7 @@ for deb in $(grep "mobilesubstrate_\|com.saurik.substrate.safemode_" tmpbingner/
 done
 rm tmpbingner/Packages
 
-for deb in $(grep "com.ex.substitute_" tmpbingnersusbstitute/Packages | cut -c 11-); do
+for deb in $(grep "com.ex.substitute_\|com.saurik.substrate.safemode_" tmpbingnersusbstitute/Packages | cut -c 11-); do
 	wget -nc -P tmpbingnersusbstitute https://apt.bingner.com/${deb}
 done
 rm tmpbingnersusbstitute/Packages
