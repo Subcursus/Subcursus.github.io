@@ -679,6 +679,29 @@ Description: Substrate substitute for code substitution
 Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
+Package: com.ex.substitute
+Architecture: iphoneos-arm
+Version: 2.0.7
+Priority: optional
+Section: System
+Maintainer: Sam Bingner
+Installed-Size: 25428
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Filename: https://apt.bingner.com/debs/1443.00/./com.ex.substitute_2.0.7_iphoneos-arm.deb
+Size: 6854596
+MD5sum: 2df52b702298d052c66cb4b10317a9e6
+SHA1: 1024c96bb06988443b4b6f8e69f07d9fb5937240
+SHA256: 8d1291cd399eedae49e4381b29aebfdbf9a4ea95762cfc8eb40eb4cd9e26e13c
+SHA512: 58e0ea930cea066ce183a5a29efc8a66ec11a214d973ce316cca8f3d3d0f6ea7f4edbe6e4883d278029cbfe063baaa8e87001180c9bc2ad0d8a3800e9f27d1fa
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
 Package: com.saurik.substrate.safemode
 Architecture: iphoneos-arm
 Version: 0.9.6001+
