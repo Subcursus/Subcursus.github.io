@@ -105,7 +105,7 @@ echo 'rm device.sh' >> device.sh
 
 if [ "1" = $packagemanager ]; then
     if [ "1" = $version ]; then
-        curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1700/1600/cydia_1.1.36-1_iphoneos-arm.deb
+        curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1700/cydia_1.1.36-1_iphoneos-arm.deb
     elif [ "2" = $version ]; then
         curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1600/cydia_1.1.36-1_iphoneos-arm.deb
     elif [ "3" = $version ]; then
