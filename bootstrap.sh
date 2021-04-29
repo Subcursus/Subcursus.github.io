@@ -73,7 +73,11 @@ if [ "1" = $packagemanager ]; then
     echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games apt update' >> device.sh
     echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games dpkg -r --force-all essential' >> device.sh
     echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games apt install zstd xz-utils gzip bzip2 libzstd1 -y' >> device.sh
-    echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games dpkg -i packagemanager.deb && apt install essential -y' >> device.sh
+    echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games apt install cydia -y' >> device.sh
+elif [ "3" = $packagemanager ]; then
+    echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games apt update' >> device.sh
+    echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games dpkg -r --force-all essential' >> device.sh
+    echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games sudo apt install org.coolstar.sileo -y' >> device.sh
 else
     echo 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games dpkg -i packagemanager.deb' >> device.sh
 fi
@@ -103,18 +107,9 @@ echo 'rm packagemanager.deb' >> device.sh
 echo 'rm cameronkatri-keyring_*_iphoneos-arm.deb' >> device.sh
 echo 'rm device.sh' >> device.sh
 
-if [ "1" = $packagemanager ]; then
-    if [ "1" = $version ]; then
-        curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1700/cydia_1.1.36-1_iphoneos-arm.deb
-    elif [ "2" = $version ]; then
-        curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1600/cydia_1.1.36-1_iphoneos-arm.deb
-    elif [ "3" = $version ]; then
-        curl -L -o packagemanager.deb https://apt.procurs.us/pool/main/iphoneos-arm64/1500/cydia_1.1.36-1_iphoneos-arm.deb
-    fi
-elif [ "2" = $packagemanager ]; then
+
+if [ "2" = $packagemanager ]; then
     curl -L -o packagemanager.deb https://getzbra.com/repo/pkgfiles/xyz.willy.zebra_1.1.15_iphoneos-arm.deb
-elif [ "3" = $packagemanager ]; then
-    curl -L -o packagemanager.deb https://github.com/coolstar/odyssey-bootstrap/raw/master/org.coolstar.sileo_2.0.0b6_iphoneos-arm.deb
 fi
 
 if [ "1" = $version ]; then
