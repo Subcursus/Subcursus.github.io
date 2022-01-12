@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $(uname) = "Darwin" ]; then
-    if [ $(uname -p) = "arm" ] || [ $(uname -p) = "arm64" ]; then
+    if [ $(uname -m) = *"iP"* ]; then
         exit 1
     fi
 fi
